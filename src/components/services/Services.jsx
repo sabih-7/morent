@@ -13,7 +13,7 @@ function services() {
                     <div className="service_card">
                         <div className="d-flex align-items-center gap-3 mb-4">
                             <img src={mark} alt="mark" className="img-fluid" />
-                            <h2 className="title">Pick &dash; Up</h2>
+                            <h2 className="title">Pick - Up</h2>
                         </div>
                         <div className="row">
                             <div className="col-4 border-end">
@@ -52,7 +52,7 @@ function services() {
                     <div className="service_card">
                         <div className="d-flex align-items-center gap-3 mb-4">
                             <img src={mark} alt="mark" className="img-fluid" />
-                            <h2 className="title">Drop &dash; Off</h2>
+                            <h2 className="title">Drop - Off</h2>
                         </div>
                         <div className="row">
                             <div className="col-4 border-end">
