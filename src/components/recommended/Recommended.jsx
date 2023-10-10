@@ -23,6 +23,14 @@ function recommended() {
                 <Cards image={carOne} />
                 <Cards image={carTwo}/>
                 <Cards image={carThree}/>
+                <Cards image={carFour} />
+                <Cards image={carOne} />
+                <Cards image={carTwo}/>
+                <Cards image={carThree}/>
+                <Cards image={carFour} />
+                <Cards image={carOne} />
+                <Cards image={carTwo}/>
+                <Cards image={carThree}/>
             </div>
         </div>
       </section>
