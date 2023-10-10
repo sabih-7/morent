@@ -1,0 +1,69 @@
+/* Services */
+.section_services {
+    margin: 3.2rem 0;
+}
+
+.section_services .service_card {
+    background: var(--white);
+    border-radius: 1rem;
+    margin: -1.5rem 0;
+    padding: 1.2rem 1.5rem;
+}
+
+.section_services .service_card .title {
+    color: var(--secondary-500);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+.section_services .service_card .form-label {
+    color: var(--secondary-500);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+.section_services .service_card .form-select {
+    border: none;
+    color: var(--secondary-300);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.24px;
+    padding: 0;
+}
+
+.section_services .service_card .form-select:focus {
+    box-shadow: none;
+}
+
+.section_services .btn {
+    border-radius: 1rem;
+    padding: 1.8rem;
+}
+
+.section_services .btn-swap {
+    background: var(--primary);
+    position: relative;
+    z-index: 100;
+}
+
+@media screen and (min-width:768px) {
+    .section_services .btn-swap {
+        z-index: 0;
+    }
+
+    .section_services .service_card .form-select {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .section_services .service_card {
+        margin: 0;
+        padding: 2.4rem 3rem;
+    }
+}

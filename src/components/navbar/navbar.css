@@ -1,0 +1,61 @@
+/* Header */
+.navbar {
+    background: var(--white);
+    justify-content: start;
+    padding: 2rem 0;
+}
+
+.navbar .navbar-brand {
+    color: var(--primary);
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.96px;
+    margin-right: 0;
+    text-transform: uppercase;
+}
+
+.navbar form {
+    align-items: center;
+    border: 0.1rem solid rgba(195, 212, 233, 0.40);
+    border-radius: 7rem;
+    display: flex;
+    padding: 0.8rem 1.6rem;
+}
+
+.navbar form .form-control {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.navbar form .form-control:focus {
+    box-shadow: none;
+}
+
+.navbar form .btn-primary {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.navbar .navbar-nav {
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .navbar .navbar-brand {
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .navbar .navbar-brand {
+        margin-right: 6rem;
+    }
+
+    .navbar form .form-control {
+        width: 35rem;
+    }
+}

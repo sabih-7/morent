@@ -1,0 +1,62 @@
+/* section_ads */
+.section_ads {
+    margin: 3.2rem 0;
+}
+
+.section_ads .card-bg-info {
+    background: url('../../assets/images/ellipse_circle.svg') center no-repeat, var(--information);
+}
+
+.section_ads .card-bg-primary {
+    background: url('../../assets/images/ellipse_arrow.svg') center repeat, var(--primary);
+}
+
+.section_ads .card-ad {
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.section_ads .card-ad .title {
+    color: var(--white);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.96px;
+    margin-bottom: 1.6rem;
+}
+
+.section_ads .card-ad .desc {
+    color: var(--white);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.32px;
+    margin-bottom: 2rem;
+}
+
+.section_ads .card-ad .btn {
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+    line-height: 150%;
+    outline: 0;
+    padding: 0.8rem 2rem;
+}
+
+.section_ads .card-ad .btn-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.section_ads .card-ad .btn-info {
+    background: var(--information);
+    color: var(--white);
+}
+
+@media screen and (min-width:768px) {
+    .section_ads .card-ad .title {
+        font-size: 3.2rem;
+    }
+}

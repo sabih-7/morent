@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+/* General */
+:root {
+    --information: #54a6ff;
+    --light: #F6F7F9;
+    --primary: #3563e9;
+    --secondary-300: #90a3bf;
+    --secondary-500: #1a202c;
+    --white: #ffffff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--light);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+h1,
+h2,
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Card */
+.card {
+    border: none;
+    border-radius: 1rem;
+}
+
+.card .card-header,
+.card .card-body,
+.card .card-footer {
+    background: var(--white);
+}
+
+.card .card-header {
+    border-bottom: 0;
+    padding: 2.4rem 2rem 0;
+}
+
+.card .card-header .card-title {
+    color: var(--secondary-500);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.6px;
+}
+
+.card .card-header .card-text {
+    color: var(--secondary-300);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.28px;
+}
+
+.card .card-header .btn {
+    border-radius: 0;
+    border: none;
+    display: flex;
+    height: fit-content;
+    outline: none;
+    padding: 0;
+}
+
+.card .card-header .btn-like {
+    background: none;
+}
+
+.card .card-body {
+    padding: 4rem 0 0;
+    text-align: center;
+}
+
+.card .card-body .img-car {
+    height: auto;
+    max-width: 20rem;
+    width: 100%;
+}
+
+.card .spec_group {
+    align-items: center;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.card .spec_group .spec_info {
+    color: var(--secondary-300);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.card .card-footer {
+    border-top: 0;
+    padding: 0 2rem 2.4rem;
+}
+
+.card .card-footer .specs {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.card .card-footer .specs .img-icon {
+    height: auto;
+    max-width: 1.8rem;
+    width: 100%;
+}
+
+.card .card-footer .price {
+    color: var(--secondary-500);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card .card-footer .strike_price {
+    color: var(--secondary-300);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.card .card-footer .price span {
+    color: var(--secondary-300);
+    font-size: 1.4rem;
+}
+
+.card .card-footer .btn {
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+    padding: 0.7rem 1.5rem;
+    text-transform: capitalize;
+}
+
+.card .card-footer .btn-rent {
+    background: var(--primary);
+    color: var(--white);
+}

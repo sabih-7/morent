@@ -1,0 +1,29 @@
+/* Section View More */
+.section_view_more {
+    margin: 6.4rem 0;
+}
+
+.section_view_more .btn {
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+    line-height: 150%;
+    outline: none;
+    padding: 0.8rem 2rem;
+}
+
+.section_view_more .btn-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.section_view_more .car_text {
+    color: var(--secondary-300);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.28px;
+}
